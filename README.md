@@ -1,2 +1,2 @@
 # StellarnetticWitchScripts
-A collection of scripts.
+A collection of scripts I've created to solve a problem.
