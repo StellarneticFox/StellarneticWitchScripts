@@ -1,0 +1,139 @@
+# ==============================================================================
+# LOCAL SECRETS & CONFIGURATION
+# ==============================================================================
+# Environment variables and credential files
+.env
+.env.*
+!.env.example
+*.env
+
+# Local settings (including appsettings.local.json and local overrides)
+*.local.json
+*.local.yaml
+*.local.yml
+*.secrets.json
+
+# ==============================================================================
+# PYTHON
+# ==============================================================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller / Executable builds
+*.manifest
+*.spec
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Testing & Coverage
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py.cover
+.hypothesis/
+.pytest_cache/
+htmlcov/
+
+# Type Checking & Formatting
+.mypy_cache/
+.pyre/
+.pytype/
+.ruff_cache/
+.black/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# ==============================================================================
+# BASH & SHELL SCRIPTS
+# ==============================================================================
+# Shell history files & debug outputs
+.bash_history
+.zsh_history
+*.log
+*.out
+*.tmp
+
+# ==============================================================================
+# EDITORS & IDE METADATA
+# ==============================================================================
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# PyCharm / JetBrains
+.idea/
+
+# Vim / Emacs
+*~
+*.swp
+*.swo
+.#*
+#*#
+
+# Obsidian / Personal PKM Vault Metadata (if scripts are stored inside a vault)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# ==============================================================================
+# OS & SYSTEM METADATA
+# ==============================================================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Linux
+.directory
