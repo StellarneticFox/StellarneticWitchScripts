@@ -6,6 +6,7 @@
 .env.*
 !.env.example
 *.env
+.venv
 
 # Local settings (including appsettings.local.json and local overrides)
 *.local.json
